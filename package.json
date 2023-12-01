@@ -1,0 +1,15 @@
+{
+  "name": "matrix",
+  "version": "0.0.1",
+  "description": "Persian admin Panel with tailwindcss",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "persian",
+    "admin-panel"
+  ],
+  "author": "Mostafa Bodagh Abadi",
+  "license": "MIT"
+}
