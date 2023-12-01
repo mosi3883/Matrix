@@ -2,5 +2,4 @@
 
 ## Getting Start
 
-run code below to get start
-`npm start`
+run code `npm start` to get start

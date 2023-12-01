@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         body: ['Vazirmatn', 'sans-serif'],
       },
+      borderWidth: {
+        1: '1px',
+      },
     },
   },
   plugins: [],
