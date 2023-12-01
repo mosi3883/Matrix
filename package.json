@@ -4,6 +4,7 @@
   "description": "Persian admin Panel with tailwindcss",
   "main": "index.html",
   "scripts": {
+    "start": "run-p w:tailwind live",
     "w:tailwind": " npx tailwindcss -i ./src/main.css -o ./dist/styles.css --watch",
     "live": "live-server --open=/src"
   },
@@ -14,6 +15,8 @@
   "author": "Mostafa Bodagh Abadi",
   "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^3.3.5"
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.3.5",
+    "npm-run-all": "^4.1.5"
   }
 }
