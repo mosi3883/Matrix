@@ -4,12 +4,16 @@
   "description": "Persian admin Panel with tailwindcss",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "w:tailwind": " npx tailwindcss -i ./src/main.css -o ./dist/styles.css --watch",
+    "live": "live-server --open=/src"
   },
   "keywords": [
     "persian",
     "admin-panel"
   ],
   "author": "Mostafa Bodagh Abadi",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
 }
